@@ -1,0 +1,49 @@
+header {
+  padding: 15px 60px;
+}
+
+/* Main */
+
+main {
+  padding: 15px 60px;
+}
+
+main .main-first--container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main-first--container .main-youtube--container div {
+  width: 418px;
+}
+
+.main-first--container .main-social-media--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-first--container .main-social-media--container a img {
+  width: 50px;
+}
+
+main .main-posts--container .article {
+  width: 617px;
+}
+
+main .main-posts--container .article img {
+  width: 108px;
+  height: 108px;
+}
+
+main .main-posts--container .article div h1 {
+  font-size: 2.4rem;
+}
+
+main .main-posts--container .article div p {
+  font-size: 1.8rem;
+}
+
+main .main-posts--container .article div h4 {
+  font-size: 1.8rem;
+}

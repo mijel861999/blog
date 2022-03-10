@@ -1,0 +1,227 @@
+@font-face {
+  font-family: CalfineDemo;
+  src: url("/statics/fonts/Calfinedemo-Yzv6L.otf");
+}
+
+@font-face {
+  font-family: Newake;
+  src: url("/statics/fonts/newake-demo-400.otf");
+}
+
+@font-face {
+  font-family: Tommy Soft;
+  src: url("/statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf");
+}
+
+@font-face {
+  font-family: Tommy Soft;
+  src: url("/statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Tommy Soft;
+  src: url("/statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf");
+  font-weight: lighter;
+}
+
+:root {
+  --green: #0cf25d;
+  --gree-dark: #038c3e;
+  --blue: #034159;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-size: 62.5%;
+  font-family: Tommy Soft;
+}
+
+/* Header */
+
+.input__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  width: 180px;
+  border: 0.5px solid var(--green);
+  border-radius: 11px;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.input__container img {
+  width: 20px;
+}
+
+.input__container input {
+  width: 100%;
+  border: none;
+  padding-left: 5px;
+  color: white;
+  background-color: var(--blue);
+}
+
+.input__container input::placeholder {
+  color: white;
+}
+
+.active {
+  display: inline !important;
+  transition: 0.2s;
+}
+
+.input__container:active {
+  border: 1px solid rgba(127, 127, 127, 0.5);
+  transition: ease 0.5s;
+}
+
+.input__container:hover {
+  border: 1px solid var(--gree-dark);
+  transition: 0.4;
+  box-shadow: 2px 0px 24px 0px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 2px 0px 24px 0px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 2px 0px 24px 0px rgba(0, 0, 0, 0.62);
+}
+
+.input__container input:focus {
+  outline: none;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  height: 80px;
+  padding: 15px 20px;
+  background-color: var(--blue);
+}
+
+header h1 {
+  font-family: CalfineDemo;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 2px;
+  color: #0cf25d;
+}
+
+nav {
+  display: flex;
+}
+
+.media--container {
+  color: black;
+  padding: 10px 10px;
+  margin: 0px 10px;
+}
+
+.media--container:hover {
+  border: 1px solid blue;
+  border-radius: 15px;
+}
+
+/* Fin de Header */
+
+/* Main Section */
+
+main {
+  width: 100%;
+  min-width: 320px;
+  margin-top: 80px;
+  padding: 15px 20px;
+  background-color: var(--blue);
+}
+
+/* First Container */
+main .main-first--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-first--container .main-youtube--container h3 {
+  font-size: 2.4rem;
+  color: var(--green);
+}
+
+.main-first--container .main-youtube--container div {
+  width: 280px;
+  margin: 20px 0px;
+}
+
+.main-first--container .main-youtube--container div a {
+  margin: 18px 0px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.main-first--container .main-youtube--container div img {
+  width: 100%;
+}
+
+.main-first--container .main-social-media--container a img {
+  margin: 10px;
+  width: 35px;
+}
+
+main .main-posts--container h3 {
+  font-size: 2.4rem;
+  color: var(--green);
+}
+
+main .main-posts--container .article {
+  display: flex;
+  margin: 20px 0px;
+  color: white;
+}
+
+main .main-posts--container .article img {
+  width: 90px;
+  height: 90px;
+  border: 1px solid var(--green);
+}
+
+main .main-posts--container .article div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+main .main-posts--container .article div h1 a {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+main .main-posts--container .article div p {
+  font-size: 1.1rem;
+}
+
+main .main-posts--container .article div h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.article--link {
+  display: block;
+  text-align: end;
+  font-size: 2rem;
+  color: var(--green);
+}
+
+/* Fin Main Section */
