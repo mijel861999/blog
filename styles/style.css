@@ -202,10 +202,16 @@ main .main-posts--container .article div {
   margin: 10px;
 }
 
-main .main-posts--container .article div h1 a {
+main .main-posts--container .article div h1 {
   color: white;
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+main .main-posts--container .article div a {
+  margin: 6px 0px;
+  color: white;
+  font-size: 1.4rem;
 }
 
 main .main-posts--container .article div p {
