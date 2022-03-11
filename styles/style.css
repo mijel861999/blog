@@ -1,27 +1,27 @@
 @font-face {
   font-family: CalfineDemo;
-  src: url("/statics/fonts/Calfinedemo-Yzv6L.otf");
+  src: url("../statics/fonts/Calfinedemo-Yzv6L.otf");
 }
 
 @font-face {
   font-family: Newake;
-  src: url("/statics/fonts/newake-demo-400.otf");
+  src: url("../statics/fonts/newake-demo-400.otf");
 }
 
 @font-face {
   font-family: Tommy Soft;
-  src: url("/statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf");
+  src: url("../statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf");
 }
 
 @font-face {
   font-family: Tommy Soft;
-  src: url("/statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf");
+  src: url("../statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: Tommy Soft;
-  src: url("/statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf");
+  src: url("../statics/fonts/tommy-soft/MADE\ Tommy\ Soft\ Light\ PERSONAL\ USE.otf");
   font-weight: lighter;
 }
 
