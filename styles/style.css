@@ -164,6 +164,8 @@ main .main-first--container {
 }
 
 .main-first--container .main-youtube--container div a {
+  display: block;
+  margin: 10px 0px;
   margin: 18px 0px;
   font-size: 1.2rem;
   color: white;

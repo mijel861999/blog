@@ -6,3 +6,7 @@ main {
 main .main-first--container {
   flex-direction: column;
 }
+
+main .main-first--container .main-social-media--container {
+  flex-direction: row;
+}

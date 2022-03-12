@@ -18,6 +18,10 @@ main .main-first--container {
   width: 418px;
 }
 
+.main-first--container .main-youtube--container div a {
+  font-size: 1.4rem;
+}
+
 .main-first--container .main-social-media--container {
   display: flex;
   flex-direction: column;
